@@ -1,5 +1,11 @@
 # Langtang Lirung PolSAR Precursor Analysis
 
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
+![Sentinel--1](https://img.shields.io/badge/data-Sentinel--1-informational)
+![Google Earth Engine](https://img.shields.io/badge/platform-Google%20Earth%20Engine-brightgreen)
+![Status](https://img.shields.io/badge/status-active-success)
+
 Dual-polarization Sentinel-1 analysis testing for a repeatable radar precursor
 signal ahead of slope failures at Langtang Lirung, Nepal.
 
@@ -44,11 +50,25 @@ The detachment zone shows a cross-pol ratio minimum in **mid-May of both
 | 2026 | -15.83 dB (May 17) | 26 Aug 2026 glacier collapse | ~101 days |
 
 Both control zones stay within a narrow, flat range across the same period
-(roughly -4 to -10 dB, no comparable dip). See
-`stage0_polsar_output/langtang_polsar_precursor_finding.png` for the full
-annotated time series, `..._small_multiples.png` for a same-scale
-per-zone comparison, and `..._yoy_overlay.png` for the direct 2025-vs-2026
-calendar overlay.
+(roughly -4 to -10 dB, no comparable dip).
+
+### Full annotated time series
+
+![Precursor finding](stage0_polsar_output/langtang_polsar_precursor_finding.png)
+
+### Same signal, same scale, three sites
+
+Shared y-axis across all three panels makes the dip's isolation to the
+detachment zone visually unmistakable.
+
+![Small multiples](stage0_polsar_output/langtang_polsar_small_multiples.png)
+
+### Year-over-year overlay
+
+2025 and 2026 cycles plotted on a shared calendar axis, directly
+visualizing the replication.
+
+![Year-over-year overlay](stage0_polsar_output/langtang_polsar_yoy_overlay.png)
 
 ## Limitations
 
