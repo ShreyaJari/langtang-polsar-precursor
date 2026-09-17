@@ -100,6 +100,9 @@ visualizing the replication.
 ├── stage0_polsar_visualize_all.py  # generates all three figures from the output CSV
 └── stage0_polsar_output/    # CSV + PNG/PDF outputs
 ```
+## Data Source
+
+- European Space Agency. Copernicus Sentinel-1 (2025–2026) SAR GRD data [Data set]. Retrieved via Google Earth Engine.
 
 ## Running it
 
