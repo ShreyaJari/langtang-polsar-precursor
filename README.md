@@ -39,7 +39,7 @@ failure zone rather than reflecting general regional conditions?**
 
 See `shared/aoi_definitions.py` for exact coordinates and analysis windows.
 
-## Finding
+## Key finding
 
 The detachment zone shows a cross-pol ratio minimum in **mid-May of both
 2025 and 2026**, each preceding a failure event by roughly 2-3.5 months:
@@ -100,11 +100,8 @@ visualizing the replication.
 ├── stage0_polsar_visualize_all.py  # generates all three figures from the output CSV
 └── stage0_polsar_output/    # CSV + PNG/PDF outputs
 ```
-## Data Source
 
-- European Space Agency. Copernicus Sentinel-1 (2025–2026) SAR GRD data [Data set]. Retrieved via Google Earth Engine.
-
-## Running it
+## Reproduction
 
 Requires a Google Earth Engine account with API access enabled.
 
@@ -115,6 +112,14 @@ python3 stage0_polsar_visualize_all.py      # generates the three figures from t
 ```
 
 First run will prompt an Earth Engine authentication flow in your browser.
+
+## Data sources
+
+- European Space Agency. Copernicus Sentinel-1 SAR GRD data (January 2025 – August 2026) [Data set]. Retrieved via Google Earth Engine, accessed [add your access date].
+
+## Citation
+
+If you use this repository, please cite it — see [`CITATION.cff`](CITATION.cff).
 
 ## License
 
