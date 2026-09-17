@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Langtang Lirung PolSAR Precursor Analysis"
+authors:
+  - family-names: "Jariwala"
+    given-names: "Shreya"
+    orcid: "https://orcid.org/[your ORCID iD]"
+version: "1.0.0"
+date-released: "[YYYY-MM-DD, matches your GitHub release date]"
+url: "https://github.com/ShreyaJari/langtang-polsar-precursor"
+repository-code: "https://github.com/ShreyaJari/langtang-polsar-precursor"
+license: MIT
+keywords:
+  - geoai
+  - remote-sensing
+  - earth-observation
+  - sar
+  - polsar
+  - glof
+  - landslide-precursor
+abstract: >
+  Dual-polarization Sentinel-1 analysis testing for a repeatable radar
+  precursor signal ahead of slope failures at Langtang Lirung, Nepal. The
+  cross-polarization ratio shows a matching pre-failure dip ahead of both
+  the 2025 and 2026 events, localized to the failure zone rather than the
+  surrounding region.
